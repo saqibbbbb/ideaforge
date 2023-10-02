@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>IdeaForge - Where dream take flight</title>
+</head>
+<body>
+
+    <nav class="navbar h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="logo" /></a></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>  
+        <div class="rightNav v-class-resp">
+            <button class="btn btn-sm"><a href="login.html">Login</a></button>
+            <button class="btn btn-sm"><a href="register.html">Registration</a></button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstsection">
+        <div class="box-main">
+            <div class="firsthalf">
+                <p class="text-big">IdeaForge - Where dreams take flight</p>
+                <p class="text-small">"IdeaForge is a catalyst for innovation, dedicated to nurturing startups with resources, mentorship, and funding. We provide the platform for creative ideas to take flight, supporting entrepreneurs on their journey to success."
+                </p>
+            </div>
+            <div class="secondhalf">
+                <img src="images/logo.jpg" alt="laptop">
+            </div>
+        </div>
+    </section>
+    <section class="section section-about" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">About Us</p>
+        <p class="sectionSubTag text-small">"IdeaForge is not just a company; it's a launchpad for innovation. We are dedicated to fueling the dreams of aspiring entrepreneurs and startups by providing them with the necessary resources, mentorship, and funding to turn their ideas into reality. At IdeaForge, we believe that every great innovation starts with a spark of creativity, and our mission is to nurture and amplify that spark. We are a supportive community that fosters the growth of groundbreaking concepts and ventures, helping them soar to new heights. With a commitment to excellence and a passion for innovation, IdeaForge is where ideas take flight, and the future of entrepreneurship is shaped.</p>
+        </div>
+        <div class="thumbnail">
+            <img src="images/grid_img.jpeg" alt="image" class="imgFluid">
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="register-container">
+            <h2 class="register-title">CONTACT US !</h2>
+            <form id="registration-form">
+              <div class="form-group">
+                <label for="address">Full Name</label>
+                <input type="text" name="fullName" id="fullName" required/>
+              </div>
+              <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" name="address" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="feedback">Feedback</label>
+                <textarea cols ="64" rows="8" type="text" id="feedback" name="feedback"></textarea>
+              </div>
+              <button type="submit" class="contact-submit-btn">Submit</button>
+            </form>
+          </div>
+    </section>
+    <footer class="footer">
+        <p class="text-footer">
+          Copyright &copy; 2023 www.ideaforge.com - All rights reserved
+        </p>
+      </footer>
+    <script src="js/resp.js"></script>
+</body>
+</html>

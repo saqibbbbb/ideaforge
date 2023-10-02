@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b4162;
+    background: linear-gradient(135.8deg, rgb(26, 26, 29) 27.1%, rgb(111, 34, 50) 77.5%);
+}
+.gallery-container {
+margin-top:5vh;
+margin-left: 20vh ; 
+margin-bottom: 22vh;
+ width: 80%;
+ background-color: rgba(219, 198, 198, 0.107);
+}
+.gallery-title{
+    margin-top: 4vh;
+    padding: 20px;
+    color:white;
+    font-size: 8vh;
+    text-align: center;
+}
+
+/* .gallery-background{
+    background-image: linear-gradient(-90deg, #2b4162 0%, #12100e 74%);
+    
+} */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1vh;
+}
+
+/* Styles for individual cards */
+.card {
+    height: 100px;
+    background-color: #f0f0f0;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 20vh;
+}

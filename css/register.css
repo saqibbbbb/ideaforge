@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto+Slab:wght@100&family=Ubuntu+Condensed&family=Ubuntu:wght@300;400&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+}
+/* CSS for the form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="tel"] {
+    width: 67vh;
+    margin: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Other CSS styles for the container, form, and button */
+.register-container {
+    width: 80vh;
+    margin-left: 65vh;
+    background: linear-gradient(109.6deg, rgb(6, 2, 2) 32.4%, rgb(137, 30, 47) 98.8%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(246, 245, 245, 0.63);
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+
+form {
+    text-align: left;
+    padding-left: 5vh;
+    color: white;
+}
+
+button {
+    background-color: #5fa6f1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.half{
+    display: inline;
+}
+
+.section-register{
+    display: flex;
+    padding: 100px 450px;
+    background: rgba(0, 0, 0, 0.7) url('../bgimg.webp');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.submit-btn{
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    width: 20vh;
+    height: 5.5vh;
+    font-size: 2.5vh;
+    background-color: darkblue;
+    margin-left: 5vh;
+}
+.submit-btn a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.submit-btn a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: lightblue;
+}
+.login-btn{
+    margin-top: 2vh;
+    width: 30vh;
+    font-size: 2vh;
+    background-color: green;
+    margin-left: 10vh;
+    height: 5.5vh;
+}
+.login-btn a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+.login-btn a:hover{
+    list-style: none;
+    text-decoration: none;
+    color: yellow;
+}
+.register-section{
+ margin-top: 10vh;
+ margin-bottom: 22vh;
+}
+
+.register-title{
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+    font-size: 5vh;
+}
+
+.thank-you-section{
+    margin-top: 30vh;
+    margin-left: 50vh;
+    margin-bottom: 36vh;
+    width: 95vh;
+    font-size: 8vh;
+    background-color: #f15f5f4e;
+    color: white;
+    padding: 3vh;
+    border-radius: 2px;
+    
+}
