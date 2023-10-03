@@ -334,3 +334,7 @@ form {
     border-radius:10px;
     border: 2px solid white;
 }
+.feedback{
+    height: 15vh;
+    width: 69vh;
+}
