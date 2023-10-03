@@ -20,6 +20,8 @@ html{
     border: solid;
     border-radius: 50px;
     width: 45px;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar{
